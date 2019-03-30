@@ -1,3 +1,5 @@
+package production;
+
 import com.sun.jdi.FloatValue;
 
 import javax.swing.*;
@@ -5,7 +7,7 @@ import java.awt.*;         // Using AWT's containers and components
 import java.awt.event.*;   // Using AWT's event classes and listener interfaces
 import java.text.DecimalFormat;     //converting large numbers to exponential form
 
-// An AWT GUI program inherits the top-level container java.awt.Frame
+// An AWT production.GUI program inherits the top-level container java.awt.Frame
 public class AWTCounter extends JFrame {
     private GridBagLayout layout = new GridBagLayout();
     private GridBagConstraints constraints = new GridBagConstraints();
@@ -156,7 +158,7 @@ public class AWTCounter extends JFrame {
         setVisible(true);        // show "super" Frame
     }
 
-    private long factorial(long n) {
+    public long factorial(long n) {
         if (n==0) {
             return 0;
         } else if (n==1) {

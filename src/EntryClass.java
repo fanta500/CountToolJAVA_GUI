@@ -1,3 +1,6 @@
+import production.AWTCounter;
+import production.GUI;
+
 public class EntryClass {
     private GUI gui = new GUI();
 
