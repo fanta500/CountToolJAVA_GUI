@@ -3,6 +3,7 @@ package production;
 import com.sun.jdi.FloatValue;
 
 import javax.swing.*;
+import javax.swing.border.Border;
 import java.awt.*;         // Using AWT's containers and components
 import java.awt.event.*;   // Using AWT's event classes and listener interfaces
 import java.text.DecimalFormat;     //converting large numbers to exponential form
